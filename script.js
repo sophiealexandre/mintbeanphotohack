@@ -31,6 +31,12 @@ function getValue () {
       document.getElementById("result9").src = result9
     })
 
+    var show = document.getElementById("allpic");
+    if (show.style.display === "none") {
+      show.style.display = "block";
+    } else {
+      show.style.display = "none";
+    }
 }
 
 
